@@ -1,0 +1,71 @@
+footer{
+	position: static;
+}
+*{
+	font-family: sans-serif;
+}
+header{
+	width: 100%;
+}
+
+header>h1{
+	text-align: center;
+}
+.first{
+	height: 80vh;
+}
+.myatmin,.arker,.minthiak,.zayar{
+	display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.myatminbox,.arkerbox,.minthiakbox,.zayarbox{
+	display: flex;
+    height: 90%;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.myatmininfo,.arkerinfo,.minthiakinfo,.zayarinfo{
+	height: 100%;
+	width: 60%;
+}
+.myatminpicbox,.arkerpicbox,.minthiakpicbox,.zayarpicbox{
+	width: 40%;
+	height: 100%;
+	background-image: url("../pj photo1/MicrosoftTeams-image (64).png");
+	background-position: center;
+	background-size: cover;
+}
+.myatminpicbox{
+	background-image: url("../pj photo1/");
+}
+.arkerpicbox{
+
+}
+.minthiakpicbox{
+
+}
+.zayarpicbox{
+
+}
+@media only screen and (max-width:786px) {
+	.myatmininfo,.arkerinfo,.minthiakinfo,.zayarinfo{
+		width: 100%;
+	}
+	.myatminpicbox,.arkerpicbox,.minthiakpicbox,.zayarpicbox{
+		width: 100%;
+	}
+	.myatmin,.arker,.minthiak,.zayar{
+		margin: 65vh 0px;
+	}
+	.myatmin{
+		margin-top: 10px;
+	}
+}
