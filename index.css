@@ -69,8 +69,8 @@ footer{
     justify-content: flex-start;
 }
 .leftsecondbottombox>img{
-    height: 100%;
-    
+    height: 322px;
+    width: 322px;
 }
 .rightsecondbottombox{
     width: 50%;
@@ -79,8 +79,7 @@ footer{
 	    margin-right: 20%;
     margin-top: 35px;
     float: left;
-    width: 30%;
-    height: 75%;
+    height: 317px;
 
 }
 .leftsecondbottombox>span{
@@ -93,6 +92,7 @@ footer{
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
+    height: 422px;
 }
 .thirdbigbox{
 	display: flex;
@@ -115,7 +115,7 @@ footer{
 }
 @media only screen and (max-width:600px) {
 	.first{
-		height: 30vh;
+		height: 280px;
 	}
 	.firstcontent>h1{
 		font-size: 30px;
@@ -146,7 +146,7 @@ footer{
 	    margin-top: 35px;
 	}
 	.second {
-    height: 140vh;
+    	height: 980px;
 	}
 	.secondbottombox {
     display: flex;
