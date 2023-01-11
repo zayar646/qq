@@ -76,11 +76,12 @@ footer{
     width: 50%;
 }
 .leftsecondbottombox{
-	    margin-right: 10%;
+    margin-right: 10%;
     margin-top: 35px;
     float: left;
     height: 317px;
-	width: 40%;
+    width: 40%;
+    
 }
 .leftsecondbottombox>span{
 	opacity: 50%;
@@ -202,13 +203,12 @@ footer{
 	    margin-top: 30px;
 	}
 	.second {
-    height: 140vh;
+    	height: 985px;
 	}
 	.secondbottombox {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 60vh;
     width: 69vw;
     margin-top: 50px;
     justify-content: flex-start;
